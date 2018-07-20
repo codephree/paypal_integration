@@ -1,0 +1,105 @@
+[24-May-2018 10:27:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/stancone/public_html/codephree.com/paypal/src/start.php:33
+Stack trace:
+#0 /home/stancone/public_html/codephree.com/paypal/src/start.php(33): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/stancone/public_html/codephree.com/paypal/index.php(3): require('/home/stancone/...')
+#2 {main}
+  thrown in /home/stancone/public_html/codephree.com/paypal/src/start.php on line 33
+[24-May-2018 10:30:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'stancone_root'@'localhost' (using password: YES) in /home/stancone/public_html/codephree.com/paypal/src/start.php:33
+Stack trace:
+#0 /home/stancone/public_html/codephree.com/paypal/src/start.php(33): PDO->__construct('mysql:host=loca...', 'stancone_root', 'N4O&Pm(e_U$E')
+#1 /home/stancone/public_html/codephree.com/paypal/index.php(3): require('/home/stancone/...')
+#2 {main}
+  thrown in /home/stancone/public_html/codephree.com/paypal/src/start.php on line 33
+[24-May-2018 10:30:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'stancone_root'@'localhost' (using password: YES) in /home/stancone/public_html/codephree.com/paypal/src/start.php:33
+Stack trace:
+#0 /home/stancone/public_html/codephree.com/paypal/src/start.php(33): PDO->__construct('mysql:host=loca...', 'stancone_root', 'N4O&Pm(e_U$E')
+#1 /home/stancone/public_html/codephree.com/paypal/index.php(3): require('/home/stancone/...')
+#2 {main}
+  thrown in /home/stancone/public_html/codephree.com/paypal/src/start.php on line 33
+[24-May-2018 10:30:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'stancone_root'@'localhost' (using password: YES) in /home/stancone/public_html/codephree.com/paypal/src/start.php:33
+Stack trace:
+#0 /home/stancone/public_html/codephree.com/paypal/src/start.php(33): PDO->__construct('mysql:host=loca...', 'stancone_root', 'N4O&Pm(e_U$E')
+#1 /home/stancone/public_html/codephree.com/paypal/index.php(3): require('/home/stancone/...')
+#2 {main}
+  thrown in /home/stancone/public_html/codephree.com/paypal/src/start.php on line 33
+[24-May-2018 10:30:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'stancone_root'@'localhost' (using password: YES) in /home/stancone/public_html/codephree.com/paypal/src/start.php:33
+Stack trace:
+#0 /home/stancone/public_html/codephree.com/paypal/src/start.php(33): PDO->__construct('mysql:host=loca...', 'stancone_root', 'N4O&Pm(e_U$E')
+#1 /home/stancone/public_html/codephree.com/paypal/index.php(3): require('/home/stancone/...')
+#2 {main}
+  thrown in /home/stancone/public_html/codephree.com/paypal/src/start.php on line 33
+[24-May-2018 10:31:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'stancone_root'@'localhost' (using password: YES) in /home/stancone/public_html/codephree.com/paypal/src/start.php:33
+Stack trace:
+#0 /home/stancone/public_html/codephree.com/paypal/src/start.php(33): PDO->__construct('mysql:host=loca...', 'stancone_root', 'N4O&Pm(e_U$E')
+#1 /home/stancone/public_html/codephree.com/paypal/index.php(5): require('/home/stancone/...')
+#2 {main}
+  thrown in /home/stancone/public_html/codephree.com/paypal/src/start.php on line 33
+[24-May-2018 10:31:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'stancone_root'@'localhost' (using password: YES) in /home/stancone/public_html/codephree.com/paypal/src/start.php:33
+Stack trace:
+#0 /home/stancone/public_html/codephree.com/paypal/src/start.php(33): PDO->__construct('mysql:host=loca...', 'stancone_root', 'N4O&Pm(e_U$E')
+#1 /home/stancone/public_html/codephree.com/paypal/index.php(5): require('/home/stancone/...')
+#2 {main}
+  thrown in /home/stancone/public_html/codephree.com/paypal/src/start.php on line 33
+[24-May-2018 10:33:32 UTC] PHP Notice:  Trying to get property of non-object in /home/stancone/public_html/codephree.com/paypal/index.php on line 17
+[24-May-2018 10:35:02 UTC] PHP Warning:  require(src\start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 10
+[24-May-2018 10:35:02 UTC] PHP Warning:  require(src\start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 10
+[24-May-2018 10:35:02 UTC] PHP Fatal error:  require(): Failed opening required 'src\start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 10
+[24-May-2018 10:35:51 UTC] PHP Warning:  require(src\start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:35:51 UTC] PHP Warning:  require(src\start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:35:51 UTC] PHP Fatal error:  require(): Failed opening required 'src\start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:36:38 UTC] PHP Warning:  require(..\src\start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:36:38 UTC] PHP Warning:  require(..\src\start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:36:38 UTC] PHP Fatal error:  require(): Failed opening required '..\src\start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:36:56 UTC] PHP Warning:  require(\src\start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:36:56 UTC] PHP Warning:  require(\src\start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:36:56 UTC] PHP Fatal error:  require(): Failed opening required '\src\start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:37:37 UTC] PHP Warning:  require(/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:37:37 UTC] PHP Warning:  require(/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:37:37 UTC] PHP Fatal error:  require(): Failed opening required '/src/start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:39:09 UTC] PHP Warning:  require(/home/stancone/public_html/codephree.com/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:39:09 UTC] PHP Warning:  require(/home/stancone/public_html/codephree.com/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:39:09 UTC] PHP Fatal error:  require(): Failed opening required '/home/stancone/public_html/codephree.com/src/start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:39:41 UTC] PHP Warning:  require(/home/stancone/public_html/codephree.com/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 12
+[24-May-2018 10:39:41 UTC] PHP Warning:  require(/home/stancone/public_html/codephree.com/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 12
+[24-May-2018 10:39:41 UTC] PHP Fatal error:  require(): Failed opening required '/home/stancone/public_html/codephree.com/src/start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 12
+[24-May-2018 10:39:58 UTC] PHP Warning:  require(/home/stancone/public_html/codephree.com/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:39:58 UTC] PHP Warning:  require(/home/stancone/public_html/codephree.com/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:39:58 UTC] PHP Fatal error:  require(): Failed opening required '/home/stancone/public_html/codephree.com/src/start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:41:11 UTC] PHP Warning:  require( __ Dir __/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:41:11 UTC] PHP Warning:  require( __ Dir __/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:41:11 UTC] PHP Fatal error:  require(): Failed opening required ' __ Dir __/src/start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:41:38 UTC] PHP Parse error:  syntax error, unexpected 'Dir' (T_STRING) in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:41:50 UTC] PHP Parse error:  syntax error, unexpected 'Dir' (T_STRING) in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:42:08 UTC] PHP Warning:  require(/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:42:08 UTC] PHP Warning:  require(/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 10:42:08 UTC] PHP Fatal error:  require(): Failed opening required '/src/start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 11:11:38 UTC] PHP Warning:  require(/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 11:11:38 UTC] PHP Warning:  require(/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 11:11:38 UTC] PHP Fatal error:  require(): Failed opening required '/src/start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 14
+[24-May-2018 11:13:33 UTC] PHP Warning:  require(/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 7
+[24-May-2018 11:13:33 UTC] PHP Warning:  require(/src/start.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 7
+[24-May-2018 11:13:33 UTC] PHP Fatal error:  require(): Failed opening required '/src/start.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 7
+[24-May-2018 11:14:20 UTC] PHP Warning:  require(/cancel.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 7
+[24-May-2018 11:14:20 UTC] PHP Warning:  require(/cancel.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/payment.php on line 7
+[24-May-2018 11:14:20 UTC] PHP Fatal error:  require(): Failed opening required '/cancel.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/payment.php on line 7
+[24-May-2018 11:14:36 UTC] PHP Fatal error:  Uncaught Error: Class 'PayPal\Api\Payer' not found in /home/stancone/public_html/codephree.com/paypal/payment.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/stancone/public_html/codephree.com/paypal/payment.php on line 18
+[24-May-2018 11:15:08 UTC] PHP Warning:  require(/home/stancone/public_html/codephree.com/paypal/../vendor/autoload.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/start.php on line 10
+[24-May-2018 11:15:08 UTC] PHP Warning:  require(/home/stancone/public_html/codephree.com/paypal/../vendor/autoload.php): failed to open stream: No such file or directory in /home/stancone/public_html/codephree.com/paypal/start.php on line 10
+[24-May-2018 11:15:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/stancone/public_html/codephree.com/paypal/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/stancone/public_html/codephree.com/paypal/start.php on line 10
+[24-May-2018 11:16:29 UTC] PHP Fatal error:  Uncaught PayPal\Exception\PayPalConnectionException: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. in /home/stancone/public_html/codephree.com/paypal/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:202
+Stack trace:
+#0 /home/stancone/public_html/codephree.com/paypal/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(78): PayPal\Core\PayPalHttpConnection->execute('{"intent":"sale...')
+#1 /home/stancone/public_html/codephree.com/paypal/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments/pa...', 'POST', '{"intent":"sale...', Array)
+#2 /home/stancone/public_html/codephree.com/paypal/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(576): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/pa...', 'POST', '{"intent":"sale...', NULL, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+#3 /home/stancon in /home/stancone/public_html/codephree.com/paypal/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 202
+[24-May-2018 11:22:30 UTC] PHP Fatal error:  Uncaught PayPal\Exception\PayPalConnectionException: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. in /home/stancone/public_html/codephree.com/paypal/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php:202
+Stack trace:
+#0 /home/stancone/public_html/codephree.com/paypal/vendor/paypal/rest-api-sdk-php/lib/PayPal/Transport/PayPalRestCall.php(78): PayPal\Core\PayPalHttpConnection->execute('{"intent":"sale...')
+#1 /home/stancone/public_html/codephree.com/paypal/vendor/paypal/rest-api-sdk-php/lib/PayPal/Common/PayPalResourceModel.php(104): PayPal\Transport\PayPalRestCall->execute(Array, '/v1/payments/pa...', 'POST', '{"intent":"sale...', Array)
+#2 /home/stancone/public_html/codephree.com/paypal/vendor/paypal/rest-api-sdk-php/lib/PayPal/Api/Payment.php(576): PayPal\Common\PayPalResourceModel::executeCall('/v1/payments/pa...', 'POST', '{"intent":"sale...', NULL, Object(PayPal\Rest\ApiContext), Object(PayPal\Transport\PayPalRestCall))
+#3 /home/stancon in /home/stancone/public_html/codephree.com/paypal/vendor/paypal/rest-api-sdk-php/lib/PayPal/Core/PayPalHttpConnection.php on line 202
+[24-May-2018 14:19:43 UTC] PHP Notice:  Undefined variable: redirectUrl in /home/stancone/public_html/codephree.com/paypal/payment.php on line 90
+[24-May-2018 16:50:28 UTC] PHP Fatal error:  Cannot use [] for reading in /home/stancone/public_html/codephree.com/paypal/formProcess.php on line 2
